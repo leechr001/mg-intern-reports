@@ -8,9 +8,9 @@ library(tidytext)
 #install.packages("utf8")
 library(utf8)
 
-farmer <- read.csv("C:\\Users\\eelrs\\Documents\\MG\\FarmerPosts.csv", stringsAsFactors = F)
-haas <- read.csv("C:\\Users\\eelrs\\Documents\\MG\\HaasPosts.csv", stringsAsFactors = F)
-mg <- read.csv("C:\\Users\\eelrs\\Documents\\MG\\MG_Insta(v2).csv", stringsAsFactors = F)
+farmer <- read.csv("FarmerPosts.csv", stringsAsFactors = F)
+haas <- read.csv("C:HaasPosts.csv", stringsAsFactors = F)
+mg <- read.csv("C:MG_Insta(v2).csv", stringsAsFactors = F)
 
 # find outliers
 which(farmer$likes.views %in% boxplot(as.numeric(farmer$likes.views))$out)
