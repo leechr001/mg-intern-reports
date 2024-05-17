@@ -12,7 +12,7 @@ df <- read.csv("\MG_Data_Combined - Instagram (1).csv",
 
 df <- df %>% select(-Discovery, -Interactions)
 #set up image functionality
-path <- "C:\\Users\\eelrs\\Documents\\MG\\Data_Instagram\\"
+path <- "Data_Instagram\\"
 
 fill_path <- function(n) {
   return(paste0(path,n,".jpg"))
