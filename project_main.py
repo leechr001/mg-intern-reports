@@ -6,12 +6,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from collections import Counter
 from textacy.preprocess import preprocess_text
 
-twitter_keys = {
-    'consumer_key':        'L4sziHBqV4VUIfKezbos0JMVl',
-    'consumer_secret':     'lJau6R7GIHFwoGR5wB3PlLQPXBChwzJFJ9WGXXtazcDSA1Vb1X',
-    'access_token_key':    '941359629606539264-05XcmQfdwMXTbPNWS3r7cZThvbQBxCK',
-    'access_token_secret': 'VdE3VJVk6oxbohQGcw7WYA5Tg4Sr8kW9duTO1wxmB6qXk'
-}
 
 api = twitter.Api(
     consumer_key         =   twitter_keys['consumer_key'],
