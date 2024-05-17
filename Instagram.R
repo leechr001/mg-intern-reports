@@ -7,7 +7,7 @@ library(countcolors)
 library(colordistance)
 library(ggplot2)
 
-df <- read.csv("C:\\Users\\eelrs\\Documents\\MG\\MG_Data_Combined - Instagram (1).csv",
+df <- read.csv("\MG_Data_Combined - Instagram (1).csv",
                stringsAsFactors = FALSE)
 
 df <- df %>% select(-Discovery, -Interactions)
